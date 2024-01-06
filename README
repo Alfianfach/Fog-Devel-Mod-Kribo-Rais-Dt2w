@@ -19,15 +19,13 @@ requirements for building and running the kernel, and information about
 the problems which may result by upgrading your kernel.
 
 
-Fog-Devel-Mod-Kribo-KSU [0.5]
+Fog-Devel-Mod-Kribo-[0.6]
 
 Im using Azure Clang 
 
 https://gitlab.com/Panchajanya1999/azure-clang
 
-If u dont want kernelsu use this one 
-
-git revert db09d228952a679f17fe098e42e3861911c4c2f6
+If u dont want kernelsu change CONFIG_KSU=n
 
 If u want use Kernelsu ad this first 
 
