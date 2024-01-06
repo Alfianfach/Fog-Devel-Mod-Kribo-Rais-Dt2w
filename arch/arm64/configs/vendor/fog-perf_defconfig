@@ -227,7 +227,7 @@ CONFIG_BATTERY_SAVER=y
 CONFIG_DYNAMIC_FSYNC=y
 ##############################################
 # disable kprobe and KSU MODULE
-CONFIG_KSU=m
+CONFIG_KSU=n
 CONFIG_KPROBES=n
 CONFIG_HAVE_KPROBES=n
 CONFIG_KPROBE_EVENTS=n
