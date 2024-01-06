@@ -25,9 +25,9 @@ Im using Azure Clang
 
 https://gitlab.com/Panchajanya1999/azure-clang
 
-If u dont want kernelsu change CONFIG_KSU=n
+If u want use Kernelsu change defconfig CONFIG_KSU=y 
 
-If u want use Kernelsu ad this first 
+then add this curl
 
 curl -LSs "https://raw.githubusercontent.com/tiann/KernelSU/main/kernel/setup.sh" | bash -
 
